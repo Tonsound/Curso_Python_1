@@ -19,7 +19,7 @@ A continuación se deja un glosario de los términos que estaremos viendo durant
 
 ## Instrucciones de Instalación
 
-Para este curso usaremos un paquete llamado **Anaconda** , la *version* de **Python 3.7** que pueden descargar del siguiente link:
+Para este curso usaremos un paquete llamado **Anaconda** , la *versión de Python* **3.7** que pueden descargar del siguiente link:
 
 > https://www.anaconda.com/distribution/#download-section
 
