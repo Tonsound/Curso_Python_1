@@ -55,6 +55,6 @@ Con todo listo procederemos a crear un **directorio** con el nombre que elijamos
 
 Con todo organizado, procederemos a abrir **VSC** y en donde dice **Archivo** o **File** (esquina superior izquierda) seleccionaremos **open folder** o **abrir carpeta** y buscaremos el directorio que creamos y seleccionaremos la carpeta de la Clase1.
 
-Por último y para finalizar este tutorial, deben ir al menú superior y seleccionar **Terminal** y luego **New Terminal** *(en Windows podemos conseguir el mismo resultado con ctrl + shift + ñ)*.
+Por último y para finalizar este tutorial, deben ir al menú superior y seleccionar **Terminal** y luego **New Terminal** *(en Windows podemos conseguir el mismo resultado con ctrl + shift + ñ)*, posteriormente escribir python en la consola y presionar enter, esto debería abrir **Python** en la consola de la parte inferior
 
 
