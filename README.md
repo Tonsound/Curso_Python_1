@@ -1,4 +1,4 @@
-# Curso Python
+# Curso Python Básico
 
 A continuación se deja un glosario de los términos que estaremos viendo durante las clases, un instructivo de instalación de los software que vamos a ocupar y dentro de los directorios pueden encontrar el código de las clases con información relevante.
 
@@ -27,4 +27,10 @@ Usaremos este paquete que instala junto con *Python 3.7* una seríe de *librerí
 
 Una vez descargado el programa instalar y asegurénse de que la opción de que establezca un path en su sistema operativo esté marcada, esto nos permite iniciar *Python* desde cualquier ubicación de nuestro PC. Cuanto termina la instalación el programa nos lleva a una página web, no la tomemos en cuénta (cierrenla), *Python* ya debería estar instalado en nuestro systema.
 
-Listo lo anterior, en este curso trabajaremos con un *IDE* llamado **Visual Studio Code**, pueden ver más información sobre los editores de código en el glosario, lo cierto es que **VSC** es uno de los editores más usados dentro de la comunidad de programadores y esto es debido principalmente a su versatilidad y funcionalidad, siempre es bueno probar distintas tecnologías, por lo que puede que hoy programen con *VSC* y en un futuro usen algún otro *IDE* 
+Listo lo anterior, en este curso trabajaremos con un *IDE* llamado **Visual Studio Code**, pueden ver más información sobre los editores de código en el glosario, lo cierto es que **VSC** es uno de los editores más usados dentro de la comunidad de programadores y esto es debido principalmente a su versatilidad y funcionalidad, siempre es bueno probar distintas tecnologías, por lo que puede que hoy programen con *VSC* y en un futuro usen algún otro *IDE*.
+Pueden encontrar los links de descarga aquí:
+
+> https://code.visualstudio.com/Download
+
+Luego de terminada la descarga, deberán instalar el programa y cuando finalice seleccionar todas las opciones que les ofrece *VSC* respecto a su accesibilidad como se señala en la siguiente [imágen](Clase1/vsc.PNG).
+
