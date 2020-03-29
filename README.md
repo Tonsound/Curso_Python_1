@@ -13,25 +13,24 @@ A continuación se deja un glosario de los términos que estaremos viendo durant
 - **Terminal:**  o **consola** es una interfaz que nos permite hacer solicitudes a nuestro **PC** a través de código.
 
 - **Editor de código o IDE:** Un **entorno de desarrollo integrado**​ o entorno de desarrollo interactivo, en inglés **Integrated Development Environment (IDE)**, es una aplicación informática que proporciona servicios integrales para facilitarle al desarrollador o programador el desarrollo de software.
-
 Normalmente, un IDE consiste de un **editor de código fuente**, herramientas de construcción automáticas y un depurador.
-
 Un **editor de código fuente** es un editor de texto diseñado específicamente para editar el código fuente de programas informáticos. Puede ser una aplicación individual o estar incluido en un entorno de desarrollo integrado.
 
 - **Función:** Una función es un bloque de código con un nombre asociado, que recibe cero o más argumentos como entrada, sigue una secuencia de sentencias, la cuales ejecuta una operación deseada y devuelve un valor y/o realiza una tarea, este bloque puede ser llamados cuando se necesite.
 
-> **Ej.**
+- **Librería:** es un conjunto de elementos (funciones, clases, tipos predefinidos, constantes, variables globales, macros, etc) que es posible utilizar en un programa para facilitar la implementación de ese programa.
 
-> **def** NOMBRE(*LISTA_DE_PARAMETROS*):
->    SENTENCIAS
->    RETURN [*EXPRESION*]
+- **Framework:** es un conjunto integrado de herramientas que facilitan un desarrollo software. Puede incluir APIs y bibliotecas. Pero también puede incluir otros elementos como herramientas de depuración, diseño gráfico, prototipado, edición, etc.
 
-
-
-
-- Librería
-- Framework
-- Tipos de Datos en python
+- **Tipos de Datos en python:** 
+- Números enteros.
+- Números de punto flotante.
+- Números complejos.
+- Iterables.
+- Strings.
+- Tuplas.
+- Listas.
+- Diccionarios.
 
 
 
