@@ -19,8 +19,12 @@ A continuación se deja un glosario de los términos que estaremos viendo durant
 
 ## Instrucciones de Instalación
 
-Para este curso usaremos un paquete llamado **Anaconda** que pueden descargar del siguiente link:
+Para este curso usaremos un paquete llamado **Anaconda** , la *version* de **Python 3.7** que pueden descargar del siguiente link:
 
 > https://www.anaconda.com/distribution/#download-section
 
-Una vez descargado el programa instalar y asegurénse de que la opción de que establezca un path en su sistema operativo es marcada, esto nos permite iniciar python desde cualquier ubicación de nuestro PC. :+1:
+Usaremos este paquete que instala junto con *Python 3.7* una seríe de *librerías* que nos harán más fácil el trabajo de programar más adelante.
+
+Una vez descargado el programa instalar y asegurénse de que la opción de que establezca un path en su sistema operativo esté marcada, esto nos permite iniciar *Python* desde cualquier ubicación de nuestro PC. Cuanto termina la instalación el programa nos lleva a una página web, no la tomemos en cuénta (cierrenla), python ya debería estar instalado en nuestro systema.
+
+Listo lo anterior, en este curso trabajaremos con un *IDE* llamado Visual Studio Code, pueden ver más información sobre los editores de código en el glosario, lo cierto es que **VSC** es uno de los editores más usados dentro de la comunidad de programadores y esto es debido principalmente a su versatilidad y funcionalidad 
