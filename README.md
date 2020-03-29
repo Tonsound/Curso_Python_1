@@ -25,9 +25,9 @@ Para este curso usaremos un paquete llamado **Anaconda** , la *version* de **Pyt
 
 Usaremos este paquete que instala junto con *Python 3.7* una seríe de *librerías* que nos harán más fácil el trabajo de programar más adelante.
 
-Una vez descargado el programa instalar y asegurénse de que la opción de que establezca un path en su sistema operativo esté marcada, esto nos permite iniciar *Python* desde cualquier ubicación de nuestro PC. Cuanto termina la instalación el programa nos lleva a una página web, no la tomemos en cuénta (cierrenla), *Python* ya debería estar instalado en nuestro systema.
+Una vez descargado el programa instalar y asegurénse de que la opción de que establezca un path en su sistema operativo esté marcada, esto nos permite iniciar **Python** desde cualquier ubicación de nuestro PC. Cuanto termina la instalación el programa nos lleva a una página web, no la tomemos en cuénta (cierrenla), **Python** ya debería estar instalado en nuestro systema.
 
-Listo lo anterior, en este curso trabajaremos con un *IDE* llamado **Visual Studio Code**, pueden ver más información sobre los editores de código en el glosario, lo cierto es que **VSC** es uno de los editores más usados dentro de la comunidad de programadores y esto es debido principalmente a su versatilidad y funcionalidad, siempre es bueno probar distintas tecnologías, por lo que puede que hoy programen con *VSC* y en un futuro usen algún otro *IDE*.
+Listo lo anterior, en este curso trabajaremos con un **IDE** llamado **Visual Studio Code**, pueden ver más información sobre los editores de código en el glosario, lo cierto es que **VSC** es uno de los editores más usados dentro de la comunidad de programadores y esto es debido principalmente a su versatilidad y funcionalidad, siempre es bueno probar distintas tecnologías, por lo que puede que hoy programen con **VSC** y en un futuro usen algún otro **IDE**.
 Pueden encontrar los links de descarga aquí:
 
 > https://code.visualstudio.com/Download
@@ -38,5 +38,6 @@ Con todo listo procederemos a crear un **directorio** con el nombre que elijamos
 
 Con todo organizado, procederemos a abrir **VSC** y en donde dice **Archivo** o **File** (esquina superior izquierda) seleccionaremos **open folder** o **abrir carpeta** y buscaremos el directorio que creamos y seleccionaremos la carpeta de la Clase1.
 
-Por último y para finalizar este tutorial, deben ir al menú superior y seleccionar **Terminal** y luego **New Terminal**
+Por último y para finalizar este tutorial, deben ir al menú superior y seleccionar **Terminal** y luego **New Terminal** *(en Windows podemos conseguir el mismo resultado con ctrl + shift + ñ)*.
+
 
