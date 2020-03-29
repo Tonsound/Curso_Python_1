@@ -32,5 +32,11 @@ Pueden encontrar los links de descarga aquí:
 
 > https://code.visualstudio.com/Download
 
-Luego de terminada la descarga, deberán instalar el programa y cuando finalice seleccionar todas las opciones que les ofrece *VSC* respecto a su accesibilidad como se señala en la siguiente [imágen](Clase1/vsc.PNG).
+Luego de terminada la descarga, deberán instalar el programa y cuando finalice seleccionar todas las opciones que les ofrece **VSC** respecto a su accesibilidad como se señala en la siguiente [imágen](Clase1/vsc.PNG).
+
+Con todo listo procederemos a crear un **directorio** con el nombre que elijamos donde almacenaremos las clases, para cada clase crearemos una carpeta nueva como Clase1, Clase2, etc.. dentro de este directorio.
+
+Con todo organizado, procederemos a abrir **VSC** y en donde dice **Archivo** o **File** (esquina superior izquierda) seleccionaremos **open folder** o **abrir carpeta** y buscaremos el directorio que creamos y seleccionaremos la carpeta de la Clase1.
+
+Por último y para finalizar este tutorial, deben ir al menú superior y seleccionar **Terminal** y luego **New Terminal**
 
