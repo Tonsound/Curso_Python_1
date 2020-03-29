@@ -4,13 +4,31 @@ A continuación se deja un glosario de los términos que estaremos viendo durant
 
 ## Glorario
 
-- Directorio
-- Software
-- Python
-- Lenguaje compilado
-- Terminal
-- Editor de código o IDE
-- Función
+- **Directorio:** también se los denomina **carpetas de archivos**,  es un contenedor virtual en el que se almacenan una agrupación de archivos informáticos y otros subdirectorios, atendiendo a su contenido, a su propósito o a cualquier criterio que decida el usuario. Técnicamente, el directorio almacena información acerca de los archivos que contiene: como los atributos de los archivos o dónde se encuentran físicamente en el dispositivo de almacenamiento.
+
+- **Software:**  soporte lógico de un sistema informático, que comprende el conjunto de los componentes lógicos necesarios que hacen posible la realización de tareas específicas, en contraposición a los componentes físicos que son llamados hardware. La interacción entre el software y el hardware hace operativo un ordenador (u otro dispositivo), es decir, el Software envía instrucciones que el Hardware ejecuta, haciendo posible su funcionamiento.
+
+- **Python:** es un **lenguaje de programación interpretado** cuya filosofía hace hincapié en la legibilidad de su código.​ Se trata de un lenguaje de programación **multiparadigma**, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.
+
+- **Terminal:**  o **consola** es una interfaz que nos permite hacer solicitudes a nuestro **PC** a través de código.
+
+- **Editor de código o IDE:** Un **entorno de desarrollo integrado**​ o entorno de desarrollo interactivo, en inglés **Integrated Development Environment (IDE)**, es una aplicación informática que proporciona servicios integrales para facilitarle al desarrollador o programador el desarrollo de software.
+
+Normalmente, un IDE consiste de un **editor de código fuente**, herramientas de construcción automáticas y un depurador.
+
+Un **editor de código fuente** es un editor de texto diseñado específicamente para editar el código fuente de programas informáticos. Puede ser una aplicación individual o estar incluido en un entorno de desarrollo integrado.
+
+- **Función:** Una función es un bloque de código con un nombre asociado, que recibe cero o más argumentos como entrada, sigue una secuencia de sentencias, la cuales ejecuta una operación deseada y devuelve un valor y/o realiza una tarea, este bloque puede ser llamados cuando se necesite.
+
+> **Ej.**
+
+> **def** NOMBRE(*LISTA_DE_PARAMETROS*):
+>    SENTENCIAS
+>    RETURN [*EXPRESION*]
+
+
+
+
 - Librería
 - Framework
 - Tipos de Datos en python
@@ -23,7 +41,7 @@ Para este curso usaremos un paquete llamado **Anaconda** , la *versión de Pytho
 
 > https://www.anaconda.com/distribution/#download-section
 
-Usaremos este paquete que instala junto con *Python 3.7* una seríe de *librerías* que nos harán más fácil el trabajo de programar más adelante.
+Usaremos este paquete que instala junto con **Python 3.7** una seríe de **librerías** que nos harán más fácil el trabajo de programar más adelante.
 
 Una vez descargado el programa instalar y asegurénse de que la opción de que establezca un path en su sistema operativo esté marcada, esto nos permite iniciar **Python** desde cualquier ubicación de nuestro PC. Cuanto termina la instalación el programa nos lleva a una página web, no la tomemos en cuénta (cierrenla), **Python** ya debería estar instalado en nuestro systema.
 
