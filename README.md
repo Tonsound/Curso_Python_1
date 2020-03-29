@@ -14,7 +14,7 @@ A continuación se deja un glosario de los términos que estaremos viendo durant
 - Librería
 - Framework
 - Tipos de Datos en python
-**este texto esta en negrita**
+
 
 
 ## Instrucciones de Instalación
@@ -22,3 +22,5 @@ A continuación se deja un glosario de los términos que estaremos viendo durant
 Para este curso usaremos un paquete llamado **Anaconda** que pueden descargar del siguiente link:
 
 > https://www.anaconda.com/distribution/#download-section
+
+Una vez descargado el programa instalar y asegurénse de que la opción de que establezca un path en su sistema operativo es marcada, esto nos permite iniciar python desde cualquier ubicación de nuestro PC. :+1:
