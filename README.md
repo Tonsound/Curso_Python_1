@@ -23,14 +23,14 @@ Un **editor de código fuente** es un editor de texto diseñado específicamente
 - **Framework:** es un conjunto integrado de herramientas que facilitan un desarrollo software. Puede incluir APIs y bibliotecas. Pero también puede incluir otros elementos como herramientas de depuración, diseño gráfico, prototipado, edición, etc.
 
 - **Tipos de Datos en python:** 
-- Números enteros.
-- Números de punto flotante.
-- Números complejos.
-- Iterables.
-- Strings.
-- Tuplas.
-- Listas.
-- Diccionarios.
+_ Números enteros.
+_ Números de punto flotante.
+_ Números complejos.
+_ Iterables.
+_ Strings.
+_ Tuplas.
+_ Listas.
+_ Diccionarios.
 
 
 
