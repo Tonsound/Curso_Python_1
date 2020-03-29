@@ -23,14 +23,14 @@ Un **editor de código fuente** es un editor de texto diseñado específicamente
 - **Framework:** es un conjunto integrado de herramientas que facilitan un desarrollo software. Puede incluir APIs y bibliotecas. Pero también puede incluir otros elementos como herramientas de depuración, diseño gráfico, prototipado, edición, etc.
 
 - **Tipos de Datos en python:** 
-_ Números enteros.
-_ Números de punto flotante.
-_ Números complejos.
-_ Iterables.
-_ Strings.
-_ Tuplas.
-_ Listas.
-_ Diccionarios.
+- *Strings:* es una secuencia de caracteres utilizado para guardar y representar textos. 
+- *Números enteros:* se referencia a estos como int(). Ejs: 1, 2, 5, 17
+- *Números de punto flotante:* se referencia a estos como float() . Ejs: 1.0, 2.5, 3.14156
+- *Números complejos:* se especifica la parte imaginaria con la letra j o J. Ejs: 0j, 0.j, 0.0j, .0j
+- *Tuplas:* Una tupla es una secuencia de items ordenada e inmutable, Los items de una tupla pueden ser objetos de cualquier tipo. Ejs: (100, "doscientos", 300)    # Tupla con tres elementos
+- *Listas:* Una lista es una secuencia ordenada de elementos mutable. Los items de una lista pueden ser objetos de distintos tipos. Ej: a = [42, 3.14, 'hola', 'casa'], a = list("hola") # En ambos casos la *variable a* es una lista.
+- *Diccionarios:* En Python, un diccionario es una colección no-ordenada de valores que son accedidos a traves de una clave. Es decir, en lugar de acceder a la información mediante el índice numérico, como es el caso de las listas y tuplas, es posible acceder a los valores a través de sus claves, que pueden ser de diversos tipo. Ej: alumnos = {1: "Pablo", 2: "Leti", 3: "Andres"}
+- *Iterables:* El concepto de Python que generaliza la idea de "secuencia" es el concepto de "iterable".Todas las secuencias son iterables. Ejs: str(), list(), dict(), tuple()
 
 
 
