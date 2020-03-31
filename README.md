@@ -2,7 +2,7 @@
 
 A continuación se deja un glosario de los términos que estaremos viendo durante las clases, un instructivo de instalación de los software que vamos a ocupar y dentro de los directorios pueden encontrar el código de las clases con información relevante.
 
-## Glorario
+## Glosario
 
 - **Directorio:** también se los denomina **carpetas de archivos**,  es un contenedor virtual en el que se almacenan una agrupación de archivos informáticos y otros subdirectorios, atendiendo a su contenido, a su propósito o a cualquier criterio que decida el usuario. Técnicamente, el directorio almacena información acerca de los archivos que contiene: como los atributos de los archivos o dónde se encuentran físicamente en el dispositivo de almacenamiento.
 
@@ -16,21 +16,22 @@ A continuación se deja un glosario de los términos que estaremos viendo durant
 Normalmente, un IDE consiste de un **editor de código fuente**, herramientas de construcción automáticas y un depurador.
 Un **editor de código fuente** es un editor de texto diseñado específicamente para editar el código fuente de programas informáticos. Puede ser una aplicación individual o estar incluido en un entorno de desarrollo integrado.
 
-- **Función:** Una función es un bloque de código con un nombre asociado, que recibe cero o más argumentos como entrada, sigue una secuencia de sentencias, la cuales ejecuta una operación deseada y devuelve un valor y/o realiza una tarea, este bloque puede ser llamados cuando se necesite.
+- **Función:** Una función es un bloque de código con un nombre asociado, que recibe cero o más argumentos como entrada, sigue una secuencia, la cual ejecuta una operación deseada y devuelve un valor y/o realiza una tarea, este bloque puede ser llamados cuando se necesite.
 
 - **Librería:** es un conjunto de elementos (funciones, clases, tipos predefinidos, constantes, variables globales, macros, etc) que es posible utilizar en un programa para facilitar la implementación de ese programa.
 
 - **Framework:** es un conjunto integrado de herramientas que facilitan un desarrollo software. Puede incluir APIs y bibliotecas. Pero también puede incluir otros elementos como herramientas de depuración, diseño gráfico, prototipado, edición, etc.
 
 - **Tipos de Datos en python:** 
-- *Strings:* es una secuencia de caracteres utilizado para guardar y representar textos. 
-- *Números enteros:* se referencia a estos como int(). Ejs: 1, 2, 5, 17
-- *Números de punto flotante:* se referencia a estos como float() . Ejs: 1.0, 2.5, 3.14156
-- *Números complejos:* se especifica la parte imaginaria con la letra j o J. Ejs: 0j, 0.j, 0.0j, .0j
-- *Tuplas:* Una tupla es una secuencia de items ordenada e inmutable, Los items de una tupla pueden ser objetos de cualquier tipo. Ejs: (100, "doscientos", 300)    # Tupla con tres elementos
-- *Listas:* Una lista es una secuencia ordenada de elementos mutable. Los items de una lista pueden ser objetos de distintos tipos. Ej: a = [42, 3.14, 'hola', 'casa'], a = list("hola") # En ambos casos la *variable a* es una lista.
-- *Diccionarios:* En Python, un diccionario es una colección no-ordenada de valores que son accedidos a traves de una clave. Es decir, en lugar de acceder a la información mediante el índice numérico, como es el caso de las listas y tuplas, es posible acceder a los valores a través de sus claves, que pueden ser de diversos tipo. Ej: alumnos = {1: "Pablo", 2: "Leti", 3: "Andres"}
+- * str() Strings:* es una secuencia de caracteres utilizado para guardar y representar textos. 
+- *int () Números enteros:* se referencia a estos como int(). Ejs: 1, 2, 5, 17
+- *float() Números de punto flotante:* se referencia a estos como float() . Ejs: 1.0, 2.5, 3.14156
+- *0.0j Números complejos:* se especifica la parte imaginaria con la letra j o J. Ejs: 0j, 0.j, 0.0j, .0j
+- *() Tuplas:* Una tupla es una secuencia de items ordenada e inmutable, Los items de una tupla pueden ser objetos de cualquier tipo. Ejs: (100, "doscientos", 300)    # Tupla con tres elementos
+- *[] Listas:* Una lista es una secuencia ordenada de elementos mutable. Los items de una lista pueden ser objetos de distintos tipos. Ej: a = [42, 3.14, 'hola', 'casa'], a = list("hola") # En ambos casos la *variable a* es una lista.
+- *{} Diccionarios:* En Python, un diccionario es una colección no-ordenada de valores que son accedidos a traves de una clave. Es decir, en lugar de acceder a la información mediante el índice numérico, como es el caso de las listas y tuplas, es posible acceder a los valores a través de sus claves, que pueden ser de diversos tipo. Ej: alumnos = {1: "Pablo", 2: "Leti", 3: "Andres"}
 - *Iterables:* El concepto de Python que generaliza la idea de "secuencia" es el concepto de "iterable".Todas las secuencias son iterables. Ejs: str(), list(), dict(), tuple()
+- *Indentación:* Este término significa mover un bloque de texto hacia la derecha insertando espacios o tabuladores. Se conoce tambien como *"Sangrado"*, en python se usan cuatro espacios en blanco como indentación standard, si no se mantiene esto dentro de nuestro código, el programa no podrá correr.
 
 
 
@@ -55,6 +56,6 @@ Con todo listo procederemos a crear un **directorio** con el nombre que elijamos
 
 Con todo organizado, procederemos a abrir **VSC** y en donde dice **Archivo** o **File** (esquina superior izquierda) seleccionaremos **open folder** o **abrir carpeta** y buscaremos el directorio que creamos y seleccionaremos la carpeta de la Clase1.
 
-Por último y para finalizar este tutorial, deben ir al menú superior y seleccionar **Terminal** y luego **New Terminal** *(en Windows podemos conseguir el mismo resultado con ctrl + shift + ñ)*, posteriormente escribir python en la consola y presionar enter, esto debería abrir **Python** en la consola de la parte inferior
+Por último y para finalizar este tutorial, deben ir al menú superior y seleccionar **Terminal** y luego **New Terminal** *(en Windows podemos conseguir el mismo resultado con ctrl + shift + ñ)*, posteriormente escribir python en la consola y presionar enter, esto debería abrir **Python** en la consola de la parte inferior.
 
 
