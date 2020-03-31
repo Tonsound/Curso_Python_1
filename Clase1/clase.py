@@ -30,3 +30,7 @@ suma_de_numeros(dos, int(5))
 isinstance(5.03, int)
 # Aquí probaremos como funciona la función isinstance que verifica si la variable pertenece a cierta categoria de datos, arrojando
 # Lo que se conoce como un dato booleano True o False.
+
+
+type(dos)
+# la función type nos indica que tipo de dato estamos ocupando
