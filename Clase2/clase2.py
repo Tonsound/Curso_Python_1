@@ -51,19 +51,42 @@ vegetales.remove("apio")
 
 print(vegetales)
 
-print(vegetales.random())
 
-perecibles = []
+carbohidratos = ["arroz", "pan", "papas"]
+
+#librerías
+import random
+
+print(random.choice(vegetales))
+
+
+help(random)
+
+def Sugerencia_comida(carbohidratos, vegetales):
+    print(random.choice(carbohidratos) + " con " + random.choice(vegetales))
 
 #loop for
+def todos_los_carbohidratos(carbohidratos):
+    for element in carbohidratos:
+        print(element)
 
-#Loop while
+def menus_posibles(carbohidratos, vegetales):
+    for element in carbohidratos:
+        for elemento in vegetales:
+            print(element + " con " + elemento)   
 
 
 
 #Diccionarios
+persona1 = {"edad":10, "nombre": "Marcos", "poder": 5}
+persona2 = {"edad":12 ,"nombre": "Jaime", "poder": 7}
 
-#librerías
+#If
+
+
+#Loop while
+
+
 #time.sleep() datetime()
 
 
