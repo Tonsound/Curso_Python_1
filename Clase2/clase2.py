@@ -1,16 +1,20 @@
 #funciones predefinidas: int, str, float, lst, dict
 dos = "dos"
 tres = 3
+
 type(tres)
+
 tres = str(tres)
 type(tres)
 
 def division(valor1, valor2):
-    return valor1 / valor2
+    return valor1 // valor2
 
 division(6, 4)
 
 division(6.25, 7)
+valor1 = "valor1"
+valor2 = "valor2"
 
 division(valor1, valor2)
 
@@ -21,13 +25,14 @@ def division2(valor1, valor2):
         resultado = "No se pueden dividir"
     return resultado
 
+
 division2(6, dos)
 
 division2(6, tres)
 
 division2(6, int(tres))
 
-#atributos: .split()
+#atributos: .split() .remove()
 
 vladimir = "Vladimir Painequeo"
 
