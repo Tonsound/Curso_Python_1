@@ -75,7 +75,7 @@ carbohidratos = ["arroz", "pan", "papas"]
 
 #librerías
 #es un conjunto de elementos (funciones, clases, tipos predefinidos, constantes, variables globales, macros, etc) que es posible utilizar en un programa para facilitar la implementación de ese programa.
-# las llamamos con la string import y podemos cambiarle el nombre con el que la vamos ocupar con la strin "as " + el nombre que queremos usar:
+# las llamamos con la string import y podemos cambiarle el nombre con el que la vamos ocupar con la string "as " + el nombre que queremos usar:
 # Ej.
 # import pandas as pd  --> ahora podemos usar pandas como pd, pd.DataFrame(), si importamos asi: importa pandas  --> debemos usar el nombre completo pandas.DataFrame()
 import random
