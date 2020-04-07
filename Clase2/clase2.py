@@ -73,11 +73,13 @@ print(vegetales)
 
 carbohidratos = ["arroz", "pan", "papas"]
 
-#librerías
-#es un conjunto de elementos (funciones, clases, tipos predefinidos, constantes, variables globales, macros, etc) que es posible utilizar en un programa para facilitar la implementación de ese programa.
-# las llamamos con la string import y podemos cambiarle el nombre con el que la vamos ocupar con la string "as " + el nombre que queremos usar:
+# LIBRERÍAS
+
+# Es un conjunto de elementos (funciones, clases, tipos predefinidos, constantes, variables globales, macros, etc) que es posible utilizar en un programa para facilitar la implementación de ese programa.
+# Las puedes implementar en tu programa con la string import, tambien podemos cambiar el nombre con el que la vamos ocupar con la string "as " + el nombre que queremos usar:
 # Ej.
-# import pandas as pd  --> ahora podemos usar pandas como pd, pd.DataFrame(), si importamos asi: importa pandas  --> debemos usar el nombre completo pandas.DataFrame()
+# import pandas as pd  --> ahora podemos usar pandas como pd, pd.DataFrame(), si importamos asi: import pandas  --> debemos usar el nombre completo para usar funciones de pandas: pandas.DataFrame()
+
 import random
 
 print(random.choice(vegetales))
@@ -91,7 +93,7 @@ def Sugerencia_comida(carbohidratos, vegetales):
 
 #loop for
 # nos permite iterar sobre una secuencia. Por cada iteración podemos ejecutar un código, podemos anidar cuantos loops queramos,
-# pero en general existen otras fórmulas mejores para hacer iteraciones sobre iteraciones
+# pero en general existen otras fórmulas mejores para hacer iteraciones sobre iteraciones.
 
 def todos_los_carbohidratos(carbohidratos):
     elementos = []
