@@ -32,9 +32,10 @@ division2(6, tres)
 
 division2(6, int(tres))
 
-#atributos: .split() .remove() los atributos son características de nuestros elementos que viene prediseñadas
-#  y que podemos utilizar a nuestro gusto, .replace() en una string reemplaza un una parte específica de esta string por otra
-# .split() divide una string en base al argumento entregado
+# Atributos: los atributos son características de nuestros elementos que viene prediseñadas e incluídas dentro de funciones de python o librerías que importamos.
+# Podemos utilizarlas a nuestro gusto, y se escriben con un punto y el atributo, como en los siguientes ejemplos:
+# str("some_string").replace("some", "replaced"): en una string reemplaza un una parte específica de esta string por otra
+# str("some_string").split("_"): divide una string en base al argumento entregado, en este caso nos entregará la lista ["some", "string"]
 
 vladimir = "Vladimir Painequeo"
 
@@ -51,13 +52,14 @@ nombre_valentin = valentin.split(" ")[0]
 
 lista_valentin[0]
 
-#listas
-# Las listas son conjuntos de datos ordenados separados por una coma y encerrados en [], 
-# son un objeto iterable por lo que podemos movernos elemento por elemento. Ojo que parte desde el item 0
-# se pueden tener tambien listas de listas
+# LISTAS
+
+# Las listas son conjuntos de datos ordenados separados por una coma y encerrados en [].
+# Son un objeto iterable por lo que podemos movernos elemento por elemento. Ojo que parte desde el elemento 0.
+# se pueden tener tambien listas anidadas en listas:
 # Ej.
 # comida = [["apio", "lechuga", "palta"], ["arroz", "pan", "papas"]]
-# podemos acceder a un elemento de una lista señalando su posición entre brackets,
+# Podemos acceder a un elemento de una lista señalando su posición entre brackets:
 # Ej.
 # comida[0] = ["apio", "lechuga", "palta"], comida[0][2] = "palta"
 
@@ -91,8 +93,9 @@ def Sugerencia_comida(carbohidratos, vegetales):
     print(random.choice(carbohidratos) + " con " + random.choice(vegetales))
 
 
-#loop for
-# nos permite iterar sobre una secuencia. Por cada iteración podemos ejecutar un código, podemos anidar cuantos loops queramos,
+#LOOP FOR:
+
+# Nos permite iterar sobre una secuencia. Por cada iteración podemos ejecutar un código, podemos anidar cuantos loops queramos,
 # pero en general existen otras fórmulas mejores para hacer iteraciones sobre iteraciones.
 
 def todos_los_carbohidratos(carbohidratos):
