@@ -80,7 +80,7 @@ carbohidratos = ["arroz", "pan", "papas"]
 # Es un conjunto de elementos (funciones, clases, tipos predefinidos, constantes, variables globales, macros, etc) que es posible utilizar en un programa para facilitar la implementación de ese programa.
 # Las puedes implementar en tu programa con la string import, tambien podemos cambiar el nombre con el que la vamos ocupar con la string "as " + el nombre que queremos usar:
 # Ej.
-# import pandas as pd  --> ahora podemos usar pandas como pd, pd.DataFrame(), si importamos asi: import pandas  --> debemos usar el nombre completo para usar funciones de pandas: pandas.DataFrame()
+# import pandas as pd  --> ahora podemos usar pandas como pd, Ej: pd.DataFrame(), si importamos asi: import pandas  --> debemos usar el nombre completo para usar funciones de pandas, Ej: pandas.DataFrame()
 
 import random
 
