@@ -90,7 +90,7 @@ def Sugerencia_comida(carbohidratos, vegetales):
 
 
 #loop for
-# nos permite iterar sobre una secuencia por cada iteración podemos ejecutar un código, podemos anidar cuantos loops queramos,
+# nos permite iterar sobre una secuencia. Por cada iteración podemos ejecutar un código, podemos anidar cuantos loops queramos,
 # pero en general existen otras fórmulas mejores para hacer iteraciones sobre iteraciones
 
 def todos_los_carbohidratos(carbohidratos):
