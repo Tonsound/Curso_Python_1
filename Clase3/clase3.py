@@ -2,13 +2,22 @@
 persona1 = {"edad":10, "nombre": "Marcos"}
 persona2 = {"edad":12 ,"nombre": "Jaime"}
 
+persona3 = persona1.copy()
+persona3.update({"nombre": "Andres"})
+print(persona3["nombre"] + " y " + persona2["nombre"])
 
-#If  == , !=, >, <
-def quien_es_mayor(var1, var2):
-    if var1["edad"] > var2["edad"]:
-        print(var1["nombre"] + " es mayor")
-    else:
-        print(var2["nombre"] + " es mayor")
+persona1['edad']
+persona2['nombre']
+
+personas = [persona1, persona2, persona3]
+
+#If  == , !=, >, <, >=, <=
+def quien_es_mayor(personas):
+    for i in range(len(personas)):
+        if personas[i]['edad'] == max(personas[0]['edad'], personas[1]['edad'], personas[2]['edad']):
+            print(personas[i]['nombre']+ " es mayor")
+
+quien_es_mayor(personas)
 
 
  def quien_es_mayor2(var1, var2):
@@ -21,8 +30,12 @@ def quien_es_mayor(var1, var2):
     else:
         pass
 
+
+persona1.update({"edad": persona2["edad"]})
+
 persona1.update({"Poder": 5})
 persona2.update({"Poder": 7})
+persona3['Poder'] = 8
 
 
 #Loop while
@@ -69,63 +82,6 @@ def Torneo_de_pelea(var1, var2):
             var2["Poder"] += random.randint(0,2)
             peleas += 1
             time.sleep(3)
-
-# list comprehension
-
-digitos = [i for i in range(10)]
-exponencial2 = [2**i for i in range(10)]
-exponencial2_2 = [2**i for i in range(1, 10)]
-
-
-# pandas
-# cd ..
-# cd <folder>
-# ls
-# columna Index
-
-import pandas as pd
-from pandas import ExcelWriter
-
-xl = pd.ExcelFile("Notorious_ordenes.xls")
-xl.sheet_names
-df = xl.parse("Orders")
-
-print(df)
-print(df.head())
-print(df.columns)
-
-df.iloc[2, 5]
-
-df.loc[2, 'Producto']
-
-df['Estado interno']
-
-def tipos_de_estado(df):
-    estados_internos = []
-    for i in range(len(df)):
-        if df.loc[i, 'Estado interno'] not in estados_internos:
-            estados_internos.append(df.loc[i, 'Estado interno'])
-        else:
-            pass
-    return estados_internos
-
-tipos_de_estado = tipos_de_estado(df)
-
-df['Estado interno'].values
-
-df2 = df[df['Estado interno'] == 'problemas']
-
-
-
-def generar_DF_Excel(df, nombre_archivo):
-    nombre_final = nombre_archivo + '.xlsx' 
-    writer = ExcelWriter(nombre_final)
-    df.to_excel(writer,'Orders')
-    writer.save()
-    print('Ok')
-
-
-generar_DF_Excel(df2, 'ordenes_problemas')
 
 
 
