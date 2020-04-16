@@ -20,7 +20,7 @@ def quien_es_mayor(personas):
 quien_es_mayor(personas)
 
 
- def quien_es_mayor2(var1, var2):
+def quien_es_mayor2(var1, var2):
     if var1["edad"] > var2["edad"]:
         print(var1["nombre"] + " es mayor")
     elif var1["edad"] < var2["edad"]:
@@ -41,6 +41,8 @@ persona3['Poder'] = 8
 #Loop while
 import time
 import random
+
+
 
 def Torneo_de_pelea(var1, var2):
     peleas = 0
@@ -71,17 +73,20 @@ def Torneo_de_pelea(var1, var2):
             var2["Poder"] += random.randint(0,2)
             peleas += 1
             time.sleep(3)
+            print(var2["nombre"] + " se fué a entrenar y volvió más fuerte")
         elif var2["Poder"] > var1["Poder"]:
             print(var2["nombre"] + " le sacó la ctm a " + var1["nombre"])
             var1["Poder"] += random.randint(0,3)
             peleas += 1
             time.sleep(3)
+            print(var1["nombre"] + " se fué a entrenar y volvió más fuerte")
         else:
             print("Empataron y se fueron a entrenar")
             var1["Poder"] += random.randint(0,3)
             var2["Poder"] += random.randint(0,2)
             peleas += 1
             time.sleep(3)
+
 
 
 
