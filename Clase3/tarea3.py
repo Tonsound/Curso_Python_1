@@ -69,4 +69,6 @@ def fibonacci(rango):
             count += 1
         print(a)
     print("hay " + str(count) + " numeros pares")
+
+fibonacci(10)
     
