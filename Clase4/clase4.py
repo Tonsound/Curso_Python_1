@@ -22,6 +22,12 @@ print(df)
 print(df.head())
 print(df.columns)
 
+df2 = pd.DataFrame(exponencial2_2)
+
+print(df)
+print(df.head())
+print(df.columns)
+
 
 
 xl = pd.ExcelFile("Notorious_ordenes.xls")
