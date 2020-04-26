@@ -15,7 +15,7 @@ def suma_lista(lista):
         if i == 0:
             nueva_lista.append(lista[i])
         else:
-            nueva_lista.append(lista[i]+nueva_lista[i-1])
+            nueva_lista.append(lista[i] + nueva_lista[i-1])
         print(nueva_lista)
         print(lista)
     return nueva_lista
