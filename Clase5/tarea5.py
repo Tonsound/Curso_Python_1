@@ -1,0 +1,1 @@
+#Escoja un libro en pdf almacene cada pagina como elemento de una lista y luego extraiga un elemento a eleccion que se encuentre en varias paginas. Por ejemplo las citas del libro visto en clases.
