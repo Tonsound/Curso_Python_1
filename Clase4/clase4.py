@@ -64,7 +64,7 @@ df2 = df[df['Estado interno'] == 'problemas']
 def generar_DF_Excel(df, nombre_archivo):
     nombre_final = nombre_archivo + '.xlsx' 
     writer = ew(nombre_final)
-    df.to_excel(writer,'Orders')
+    df.to_excel(writer,'Orders2')
     writer.save()
     print('Ok')
 
