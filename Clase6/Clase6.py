@@ -1,4 +1,31 @@
-import requests
+import PyPDF2
+
+
+pags = []
+
+
+def process_file(filename):
+    pdfFileObj = open(filename, 'rb')
+    pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+    num_pages = pdfReader.numPages
+    count = 0
+    text = ""
+    while count < num_pages:
+        pageObj = pdfReader.getPage(count)
+        count +=1
+        text += pageObj.extractText()
+        pags.append(pageObj.extractText())
+    return text, pags
+
+filename = "relatos de poder.pdf"
+
+texto_libro, pags_libro = process_file(filename)
+
+
+texto_libro.count("?")
+
+
+
 from bs4 import BeautifulSoup as soup
 import pandas as pd
 
