@@ -1,10 +1,9 @@
 import PyPDF2
 
 
-pags = []
-
 
 def process_file(filename):
+    pags = []
     pdfFileObj = open(filename, 'rb')
     pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
     num_pages = pdfReader.numPages
@@ -15,29 +14,41 @@ def process_file(filename):
         count +=1
         text += pageObj.extractText()
         pags.append(pageObj.extractText())
-    return text, pags
+    return text, pags, num_pages
 
 filename = "relatos de poder.pdf"
 
-texto_libro, pags_libro = process_file(filename)
-
+texto_libro, pags_libro, cantidad_de_pags = process_file(filename)
 
 texto_libro.count("?")
 
+def contar_preguntas(lista):
+    contador_general = 0
+    for i in range(len(lista)):
+        contador_local = str(lista[i]).count("?")
+        contador_general += contador_local
+    return contador_general
+
+cantidad_preguntas = contar_preguntas(pags_libro)
 
 
+
+
+
+# Clase6
 from bs4 import BeautifulSoup as soup
 import pandas as pd
+import requests
 
 
 def simple_request(link):
-    headers = {'Content-Type': 'application/xml'}
-    r = requests.get(link, headers=headers)
-    print(r)
-    return r.content
+    headers = {'Content-Type': 'application/json'}
+    r = requests.get(link)
+    return r.content, r
 
-
-web_content =  simple_request('https://animeflv.net/')
+link = 'https://soundcloud.com/uiceheidd/bandit-ft-nba-youngboy'
+# simple_request(link)
+web_content, request_status =  simple_request(link)
 
 type(web_content)
 
@@ -57,20 +68,21 @@ def simple_parser(contenido_web):
 
 sopita = simple_parser(web_content)
 
+<a href="un link">Ir acá pa ver más</a>
+
 links = sopita.findAll("a")
 links
 
-links = sopita.findAll("a").get("href")
-links
 
 links = [link.get("href") for link in links]
 
-links2 = sopita.findAll("a", {"class":"fa-play-circle"})
+
+links2 = sopita.findAll("a", {"title":"Popular searches"})
 len(links2)
 
-links2 = sopita.find("ul", {"class":"ListSdbr"})
-links2
+
 links2[0]
+links2[0].text
 
 
 s = requests.Session()
