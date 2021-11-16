@@ -9,15 +9,20 @@ clase["alumno1"]
 clase2 = ["alumno1", "alumno2"]
 clase2[0]
 clase2[-1]
-
-
+numero2= 2.0
 
 dos = "dos"
 # Aquí definimos la variables dos como el string "dos"
 type(dos)
 # la función type nos indica que tipo de dato estamos ocupando
 
+print("Cristian")
 
+def cualEsMiNombre(nombre):
+    print(nombre)
+
+cualEsMiNombre(clase["alumno1"])
+isinstance(numero2, int)
 
 
 def cual_es_mi_nombre(nombre):
@@ -31,7 +36,7 @@ cual_es_mi_nombre("José Miguel")
 # la consola debería imprimir "José Miguel"
 
 
-def suma_de_numeros(numero1, numero2):
+def suma_de_numeros_enteros(numero1, numero2):
     if isinstance(numero1, int) and isinstance(numero2, int):
         print(int(numero1) + int(numero2))
     else:
