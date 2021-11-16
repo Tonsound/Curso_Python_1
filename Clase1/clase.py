@@ -1,7 +1,7 @@
 
 int(3.1)
 float(2)
-string = "dsdasd"
+palabra = "dsdasd"
 a = False
 b = True
 clase = {"alumno1": "Nicolas", "alumno2": "Matias"}
