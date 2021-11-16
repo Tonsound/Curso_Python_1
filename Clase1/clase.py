@@ -9,6 +9,11 @@ clase["alumno1"]
 clase2 = ["alumno1", "alumno2"]
 clase2[0]
 clase2[-1]
+
+
+
+dos = "dos"
+# Aquí definimos la variables dos como el string "dos"
 type(dos)
 # la función type nos indica que tipo de dato estamos ocupando
 
@@ -37,8 +42,6 @@ def suma_de_numeros(numero1, numero2):
 # en la consola, pero solo si estos son enteros, si no son enteros la función imprimirá el mensaje:
 #  "Los datos no son números enteros"
 
-dos = "dos"
-# Aquí definimos la variables dos como el string "dos"
 
 suma_de_numeros(dos, int(5))
 # Probaremos nuestra funcion con una variable de tipo str y un número entero
