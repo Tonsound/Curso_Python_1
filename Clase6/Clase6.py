@@ -77,8 +77,9 @@ links
 links = [link.get("href") for link in links]
 
 
-links2 = sopita.findAll("a", {"title":"Popular searches"})
+links2 = sopita.findAll("div", {"class":"downloadLinks"})
 len(links2)
+
 
 
 links2[0]
@@ -87,6 +88,7 @@ links2[0].text
 
 s = requests.Session()
 
+links = sopita.find("dd").text
 
 #Busca un elemento dentro del código web de la página idetificando el tag del elemento, y se especifica una segunda indicacion tipo-elemento_a_buscar para seleccionar el elemento correcto. El campo texto corresponde a si lo buscado está como str
 def sopear_elemento(url, tag, tipo, elemento_a_buscar, texto):
@@ -97,6 +99,10 @@ def sopear_elemento(url, tag, tipo, elemento_a_buscar, texto):
     else:
         elemento = data.find(str(tag), {str(tipo) : str(elemento_a_buscar)})
     return elemento
+
+data = sopear_elemento(link, "meta", "itemprop", "genre", 0)
+
+
 
 def sopear_varios_elementos(url, tag, tipo, elemento_a_buscar):
     r = s.get(url)

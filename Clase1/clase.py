@@ -1,4 +1,20 @@
 
+int(3.1)
+float(2)
+string = "dsdasd"
+a = False
+b = True
+clase = {"alumno1": "Nicolas", "alumno2": "Matias"}
+clase["alumno1"]
+clase2 = ["alumno1", "alumno2"]
+clase2[0]
+clase2[-1]
+type(dos)
+# la función type nos indica que tipo de dato estamos ocupando
+
+
+
+
 def cual_es_mi_nombre(nombre):
     print(nombre)
 # La función cuál es mi nombre toma el argumento *nombre* y luego lo pasa a la función *print*
@@ -31,6 +47,3 @@ isinstance(5.03, int)
 # Aquí probaremos como funciona la función isinstance que verifica si la variable pertenece a cierta categoria de datos, arrojando
 # Lo que se conoce como un dato booleano True o False.
 
-
-type(dos)
-# la función type nos indica que tipo de dato estamos ocupando
