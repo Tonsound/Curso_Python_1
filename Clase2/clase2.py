@@ -10,7 +10,7 @@ type(tres)
 def division(valor1, valor2):
     return valor1 // valor2
 
-division(6, 4)
+resultado1 = division(6, 4)
 
 division(6.25, 7)
 valor1 = "valor1"
@@ -23,8 +23,10 @@ def division2(valor1, valor2):
         resultado = valor1 / valor2
     except:
         resultado = "No se pueden dividir"
-    return resultado
+    print(resultado)
 
+
+division2(2,0)
 
 division2(6, dos)
 
