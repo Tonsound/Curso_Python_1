@@ -41,14 +41,16 @@ division2(6, int(tres))
 
 vladimir = "Vladimir Painequeo"
 
-valentin = vladimir.replace("Vladimir", "Valentín")
+valentin = vladimir.replace("Vlad", "Valentín")
+
+valentin = "valentin perez urrutia"
 
 cinco = 5
 cinco.replace("Vladimir", "Valentín")
 
 lista_valentin = valentin.split(" ")
 
-apellido_valentin = valentin.split(" ")[1]
+apellido_valentin = lista_valentin[1]
 
 nombre_valentin = valentin.split(" ")[0]
 
@@ -64,6 +66,9 @@ lista_valentin[0]
 # Podemos acceder a un elemento de una lista señalando su posición entre brackets:
 # Ej.
 # comida[0] = ["apio", "lechuga", "palta"], comida[0][2] = "palta"
+
+comida[0].append("tomate")
+
 
 vegetales = ["apio", "lechuga", "palta"]
 
